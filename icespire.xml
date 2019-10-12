@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data version="5">
+	<campaign>
+		<name>Dragon of Icespire Peak</name>
+		<adventure>
+			<name>Dwarven Excavation</name>
+			<encounter>
+				<name>Temple</name>
+				<state>0</state>
+				<current>0</current>
+				<round>0</round>
+				<combatant>
+					<monster>
+						<enemy>1</enemy>
+						<label>Ochre Jelly</label>
+						<name>Ochre Jelly</name>
+						<imageData>
+							<uniqueID>413</uniqueID>
+						</imageData>
+						<size>3</size>
+						<type>ooze</type>
+						<alignment>unaligned</alignment>
+						<ac>8</ac>
+						<hpMax>45</hpMax>
+						<hpCurrent>45</hpCurrent>
+						<hd>6d10+12</hd>
+						<speed>10 ft., climb 10 ft.</speed>
+						<abilities>15,6,14,2,6,1</abilities>
+						<resist>acid</resist>
+						<immune>lightning, slashing</immune>
+						<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, prone</conditionImmune>
+						<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+						<passive>8</passive>
+						<cr>2</cr>
+						<trait>
+							<name>Source</name>
+							<text>Monster Manual, p. 243</text>
+						</trait>
+						<trait>
+							<name>Amorphous</name>
+							<text>The jelly can move through a space as narrow as 1 inch wide without squeezing.</text>
+						</trait>
+						<trait>
+							<name>Spider Climb</name>
+							<text>The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+						</trait>
+						<action>
+							<name>Pseudopod</name>
+							<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) bludgeoning damage plus 3 (1d6) acid damage.</text>
+							<attack>
+								<atk>4</atk>
+								<dmg>2d6+2</dmg>
+							</attack>
+						</action>
+						<reaction>
+							<name>Split</name>
+							<text>When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly&#39;s, rounded down. New jellies are one size smaller than the original jelly.</text>
+						</reaction>
+						<environment>256</environment>
+					</monster>
+				</combatant>
+			</encounter>
+
+			<encounter>
+				<name>DoIP: Secret Tunnel</name>
+				<state>0</state>
+				<current>0</current>
+				<round>0</round>
+				<combatant>
+					<monster>
+						<enemy>1</enemy>
+						<label>Ochre Jelly</label>
+						<name>Ochre Jelly</name>
+						<imageData>
+							<uniqueID>413</uniqueID>
+						</imageData>
+						<size>3</size>
+						<type>ooze</type>
+						<alignment>unaligned</alignment>
+						<ac>8</ac>
+						<hpMax>45</hpMax>
+						<hpCurrent>45</hpCurrent>
+						<hd>6d10+12</hd>
+						<speed>10 ft., climb 10 ft.</speed>
+						<abilities>15,6,14,2,6,1</abilities>
+						<resist>acid</resist>
+						<immune>lightning, slashing</immune>
+						<conditionImmune>blinded, charmed, deafened, exhaustion, frightened, prone</conditionImmune>
+						<senses>blindsight 60 ft. (blind beyond this radius)</senses>
+						<passive>8</passive>
+						<cr>2</cr>
+						<trait>
+							<name>Source</name>
+							<text>Monster Manual, p. 243</text>
+						</trait>
+						<trait>
+							<name>Amorphous</name>
+							<text>The jelly can move through a space as narrow as 1 inch wide without squeezing.</text>
+						</trait>
+						<trait>
+							<name>Spider Climb</name>
+							<text>The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</text>
+						</trait>
+						<action>
+							<name>Pseudopod</name>
+							<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) bludgeoning damage plus 3 (1d6) acid damage.</text>
+							<attack>
+								<atk>4</atk>
+								<dmg>2d6+2</dmg>
+							</attack>
+						</action>
+						<reaction>
+							<name>Split</name>
+							<text>When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly&#39;s, rounded down. New jellies are one size smaller than the original jelly.</text>
+						</reaction>
+						<environment>256</environment>
+					</monster>
+				</combatant>
+			</encounter>
+
+			<encounter>
+				<name>DoIP: When Orcs Attack</name>
+				<state>0</state>
+				<current>0</current>
+				<round>0</round>
+				<combatant>
+					<monster>
+						<enemy>1</enemy>
+						<label>Orc 1</label>
+						<name>Orc</name>
+						<imageData>
+							<uniqueID>347</uniqueID>
+						</imageData>
+						<type>humanoid (orc)</type>
+						<alignment>chaotic evil</alignment>
+						<ac>13</ac>
+						<armor>hide armor</armor>
+						<hpMax>15</hpMax>
+						<hpCurrent>15</hpCurrent>
+						<hd>2d8+6</hd>
+						<speed>30 ft.</speed>
+						<abilities>16,12,16,7,11,10</abilities>
+						<skill>
+							<id>7</id>
+							<modifier>2</modifier>
+						</skill>
+						<senses>darkvision 60 ft.</senses>
+						<languages>Common, Orc</languages>
+						<cr>0</cr>
+						<trait>
+							<name>Source</name>
+							<text>Monster Manual, p. 246</text>
+						</trait>
+						<trait>
+							<name>Aggressive</name>
+							<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+						</trait>
+						<action>
+							<name>Greataxe</name>
+							<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12+3) slashing damage.</text>
+							<attack>
+								<atk>5</atk>
+								<dmg>1d12+3</dmg>
+							</attack>
+						</action>
+						<action>
+							<name>Javelin</name>
+							<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
+							<attack>
+								<atk>5</atk>
+								<dmg>1d6+3</dmg>
+							</attack>
+						</action>
+						<environment>505</environment>
+					</monster>
+				</combatant>
+				<combatant>
+					<monster>
+						<enemy>1</enemy>
+						<label>Orc 2</label>
+						<name>Orc</name>
+						<imageData>
+							<uniqueID>348</uniqueID>
+						</imageData>
+						<type>humanoid (orc)</type>
+						<alignment>chaotic evil</alignment>
+						<ac>13</ac>
+						<armor>hide armor</armor>
+						<hpMax>15</hpMax>
+						<hpCurrent>15</hpCurrent>
+						<hd>2d8+6</hd>
+						<speed>30 ft.</speed>
+						<abilities>16,12,16,7,11,10</abilities>
+						<skill>
+							<id>7</id>
+							<modifier>2</modifier>
+						</skill>
+						<senses>darkvision 60 ft.</senses>
+						<languages>Common, Orc</languages>
+						<cr>0</cr>
+						<trait>
+							<name>Source</name>
+							<text>Monster Manual, p. 246</text>
+						</trait>
+						<trait>
+							<name>Aggressive</name>
+							<text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+						</trait>
+						<action>
+							<name>Greataxe</name>
+							<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12+3) slashing damage.</text>
+							<attack>
+								<atk>5</atk>
+								<dmg>1d12+3</dmg>
+							</attack>
+						</action>
+						<action>
+							<name>Javelin</name>
+							<text>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6+3) piercing damage.</text>
+							<attack>
+								<atk>5</atk>
+								<dmg>1d6+3</dmg>
+							</attack>
+						</action>
+						<environment>505</environment>
+					</monster>
+				</combatant>
+			</encounter>
+		</adventure>
+
+		<adventure>
+			<name>Umbrage Hill</name>
+			<note>
+				<name>Location Overview</name>
+				<text>
+Umbrage Hill got its name after two feuding dwarf clans fought a pitched battle atop it. The cause of their umbrage is a tale lost to time, and only the cairns of the dead now remain. The stone windmill on the hill is a later addition, but is still more than a hundred years old.
+
+Adabra Gwynn, a midwife and apothecary devoted to Chauntea (goddess of agriculture), resides here. A manticore driven out of the mountains by Cryovain the white dragon attacks the windmill shortly before the adventurers arrive. Read the following boxed text to set the scene:
+
+Built on the slope of Umbrage Hill is an old stone windmill surrounded by an iron fence. A large winged monster with a spiky tail is trying to knock down the windmill's front door. A woman appears in a second-floor window, waves at you, and yells, "A little help?!"
+
+Adabra uses the commoner stat block. Characters can fight or negotiate with the manticore, which ceases its attack and flies away if given at least 25 gp in treasure or a few pounds of meat.
+
+If it's not killed, the manticore could return with its mate to make more trouble in the future.
+				</text>
+				<expanded>0</expanded>
+			</note>
+		</adventure>
+
+		<adventure>
+			<name>Gnomengarde</name>
+			<note>
+				<name>Location Overview</name>
+				<text>
+The caves of Gnomengarde are carved into the base of a mountain southeast of Phandalin, around a narrow waterfall. The rock gnome wizards who occupy these caves form strategic alliances with their human and dwarf neighbors as needs warrant. Reclusive and secretive, the gnomes craft minor magic items and useful, nonmagical inventions to pass the time. In these endeavors, their failures outnumber their successes. They seldom stray far from home, subsisting largely on the mushrooms that grow on misty islands outside their caves.
+
+Gnomengarde has two married kings who rule in tandem—Gnerkli and Korboz. Korboz recently lost his mind and is keeping Gnerkli as his prisoner. Their subjects don't understand the nature of Korboz's affliction, and are at a loss as to what to do. They wish no harm to befall either king, but they acknowledge that Korboz has become a danger to himself and others.
+
+In addition to the danger posed by the mad king, two gnomes have mysteriously vanished within the last tenday. No one except King Korboz knows that a shapechanging monster (a mimic) has crept into Gnomengarde and is feeding on the gnomes, changing its appearance as it makes its way through the complex. Korboz was attacked and almost killed by the creature, with that event inspiring his madness. He has sequestered himself and his beloved Gnerkli in their quarters because he doesn't want the monstrous shapechanger to devour them. Korboz hopes the creature will tire of eating gnomes and leave. Providing Korboz with evidence of the mimic's demise restores his sanity.
+				</text>
+				<expanded>0</expanded>
+			</note>
+		</adventure>
+	</campaign>
+</data>
